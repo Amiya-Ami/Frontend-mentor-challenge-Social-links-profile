@@ -1,0 +1,128 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    background-color: rgba(8, 8, 8, 0.932);
+
+}
+
+.Box {
+
+     width: 380px;
+     height: 80%;
+     background-color: rgba(44, 43, 43, 0.281);
+     border-radius: 5%;
+}
+
+.img {
+    margin: 40px 0px 0px 140px ;
+    width: auto;
+    height: 85px;
+    border-radius: 50%;
+    content: url(./image/ami.jpg);
+    transition: 1s ease;
+}
+
+.img:hover {
+    
+    content: url(./image/ami0.jpg);
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+
+}
+.head1 {
+    margin: 20px 50px;
+    font-size: 20px;
+    color: white;
+    margin: 20px 0px 0px 90px;
+
+}
+
+.content1 {
+    margin: 15px 110px;
+    color: rgb(160, 248, 101);
+    font-size: 1rem;
+
+}
+
+.content2 {
+    margin: 15px 0px 0px 45px;
+    color: white;
+    font-size: 1rem;
+}
+
+.linkfix {
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    
+}
+
+.linkbox1 {
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 15px 130px;
+    width: fit-content;
+    height: auto;
+    background-color: rgb(44, 43, 43);;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.linkbox2 {
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 15px 119px;
+    width: fit-content;
+    height: auto;
+    background-color: rgb(44, 43, 43);;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.linkbox3 {
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 15px 125px;
+    width: fit-content;
+    height: auto;
+    background-color: rgb(44, 43, 43);;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.linkbox1:hover {
+    cursor: pointer;
+    color: black;
+    background-color: slateblue;
+    transition: 0.5s;
+}
+
+.linkbox2:hover {
+    cursor: pointer;
+    color: black;
+    background-color: slateblue;
+    transition: 0.5s;
+}
+
+.linkbox3:hover {
+    cursor: pointer;
+    color: black;
+    background-color: slateblue;
+    transition: 0.5s;
+}
